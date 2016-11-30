@@ -1,4 +1,4 @@
-mssql:
+redgate-dlm_automation:
   '2.0.1.1048':
     installer: 'msiexec'
     full_name: RedGate DLM Automation 2

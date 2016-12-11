@@ -4,5 +4,5 @@ mssql:
     installer: 'c:/Program Files (x86)/install/mssql/setup.exe'
     install_flags: '/ConfigurationFile=mssql_silent_install.ini /IAcceptSQLServerLicenseTerms=True'
     uninstaller: 'c:/Program Files (x86)/install/mssql/setup.exe'
-    uninstall_flags: '/ConfigurationFile=mssql_silent_install.ini /IAcceptSQLServerLicenseTerms=True /Action=Uninstall'
+    uninstall_flags: '/ConfigurationFile="c:/Program Files (x86)/install/mssql/mssql_silent_install.ini" /IAcceptSQLServerLicenseTerms=True /Action=Uninstall'
     msiexec: False
